@@ -1,0 +1,4 @@
+*.log
+dir/
+# Command of Git
+/static/  

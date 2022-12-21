@@ -1,0 +1,87 @@
+1. Git ko apna name batane ke liye This command -> git config --global user.name "Your name"
+
+2. Git ko apna email batane ke liye This command -> git config --global user.email "Your email"
+
+3. Git se apna name puchne ke liye This command -> git config user.name
+
+4. Git se apna email puchne ke liye This command -> git config user.email
+
+5. Git me apna name and email save hua ya nahi janne ke liye This command -> git config --list (3 lable me save karta hai data apka)
+
+6. Git status ko janne ke liye This command -> git status
+
+7. Git ko batan ke liye ki aapka file treak kare to This command -> git init
+
+8. Git me pari aapki untrek file ko stegin area me dalne ke liye This command -> git add --a / git add .
+
+9. Git me pari aapki untrek file ko stegin area me one by one kar ke dalne ke liye This command -> git add fileName
+
+10. git me commit karne ke liye This command -> git commit m "your message"
+
+11. Git me aapne ne kitne commit kiye ise janne ke liye This command -> git log
+
+12. Git ka .git folder jisme aapka all commited file hota hai use dlete karne ke liye This command -> rm -rm .git
+
+13. Git ke sever pe se koi import file / folder downlode karne ke liye This command -> git clone file url
+
+14. Git me change directry -> cd foldername
+
+15. Git se folder create karne ka command -> mkdir folderName
+
+16. Git se file create karne ka command -> touch filename.extention
+
+17. Aap jis bi directry me me ho vaha ka file and folder ka list dekane ke liye This command -> ls
+
+18.  Aap jahna bhi ho vaha ka directry dekane ke liye This command -> pwd
+
+19. Agar aap kisi bhi eak trah ki file ko ingnor karn chahte hai to Step ->touch .gitignore => create file
+.gitignore me *.extention Name Step2 -> save 
+
+20. Agar aap kisi bhi trah ke folder ko ingnor karn chahte hai to Step ->touch .gitignore => create file
+.gitignore me folderName/ Step2 -> save 
+
+21. Agar same name ka folder hai usi ke ander to agar aap bahar wale folder ko ignor karn chate hai to This commond -> .gitignore ke ander /foldername/
+
+22. Agar apka statging area and change file me antar hai to git diff se pata chal jayega -> git diff
+
+23. Agar aap Stageing area and apna purana commit se compeare karna chate hai ki hay change hai to This command -> git diff --staged 
+
+24. agar aap chahe ki jo file ya folder edit kiya hai vo comit kiye bina aap commit karna chate hai to This command -> git commit -a -m "your message"
+
+25. agar aap kisi file ko delete karn chate hai to This command -> git rm filename.extention
+
+26. agar aap kisi file ko reneme karan chate hai to This command -> git mv old filename new filename
+
+27. agar aao trek se hattna chate ho to This commond -> git rm --cached
+
+28. Agar aap kisi bhi repogetry me ho to aap us repogetry me kay kay hua hai and kapy kay hata hai aur kay kay add hua hai dekhne ke liye This command -> git log -p
+
+29. And git log -p ke sath -2 or -3 jo number likhege aapko utne hi commit dikhege
+
+30. Git ke repogetry me kay kay hua hai agar aap sort me dekhna chate hai to This command -> git log -- stat
+
+31. Git log --pretty= oneline ==> isme aapko one line me git repogetry me kay kay hua ye sab batayega this command
+
+32. Git log --pretty=short ===> isme aapko short me batayega ga ki repogetry me kay hua
+
+33. Git log --pretty=full ===> isme aapko short se thori imfomation aur batayega ga ki repogetry me kay hua
+
+34. git log --since=2.days ===> isme aapko batayega ki itne din me kay kay hua
+
+35. git log --since=2.weeks ===> isme aapko batayega ki itne din me kay kay hua
+
+36. git log --since=2.months ===> isme aapko batayega ki itne din me kay kay hua
+
+37. git log --since=2.years  ===> isme aapko batayega ki itne din me kay kay hua
+
+38. google serch ===> https://git-scm.com/docs/git-log this is use full information janne ke liye git ka format ke rup me ex (git log --pretty=format:"%h --%an")
+
+39. Agar aap pichale wale git commit ko change karne chahte to to this command ==> git commit --amend
+
+40. Agar aap staged file ko unstage karna chahte hai to This commond ==> git restore --staged filename..
+
+41. Agar aap init se wapas aana cahte hai to This command ==> git restore filename.. / 
+
+42. Delete text ya fir line ko waps lane ke liye ==> git checkout -- filename..
+
+43. Agar aap kisi bhi file ko change kiya hai agar aap chahate hai ki jo pahle tha vahi aaye ya fir pichle commit se millna chahate hai to This command => git checkout -f
