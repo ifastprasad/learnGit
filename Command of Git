@@ -85,3 +85,5 @@
 42. Delete text ya fir line ko waps lane ke liye ==> git checkout -- filename..
 
 43. Agar aap kisi bhi file ko change kiya hai agar aap chahate hai ki jo pahle tha vahi aaye ya fir pichle commit se millna chahate hai to This command => git checkout -f
+
+44. Agar aap chate hai ki gitub ki bre command ko costomize karke chota karne ke liye to This command ==> git config --global alias.yourSortname gitCommand
