@@ -88,4 +88,10 @@
 
 44. Agar aap chate hai ki gitub ki bre command ko costomize karke chota karne ke liye to This command ==> git config --global alias.yourSortname gitCommand
 
-55.
+55. Create new branch so This command --> git checkout -b branch_name
+
+56. If switch branch so This is command --> git checkout branch_name
+
+57. if chake present in who is branch --> git branch
+
+58. if dleate branch after marge so --> git marge   
