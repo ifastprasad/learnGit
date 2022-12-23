@@ -101,3 +101,5 @@
 50. if dleate branch before marge in master so --> git branch -D your_branch_name
 
 51. if marge branch so --> git merge your_branch_name
+
+52. if in remote branch of dleate so --> git push -d origin your_branch_name
