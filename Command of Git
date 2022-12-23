@@ -94,4 +94,10 @@
 
 47. if chake present in who is branch --> git branch
 
-88. if dleate branch after marge so --> git marge   
+48. if push your branch git so --> git push origin yourbrabch_nanme:new_name(opstinal)
+
+49. if dleate branch after marge in master so --> git branch -d your_branch_name
+
+50. if dleate branch before marge in master so --> git branch -D your_branch_name
+
+51. if marge branch so --> git merge your_branch_name
